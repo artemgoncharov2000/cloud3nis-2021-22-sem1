@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    background: linear-gradient(rgb(47, 150, 163), rgb(48, 62, 143));
+    font-family: sans-serif;
+    color: white;
+}
+
+.container {
+    margin: 10px;
+    width: 500px;
+    height: 100px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.location-title {
+    width: 250px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.weather-status {
+    width: 250px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.local-time {
+    width: 250px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.image-container {
+    width: 250px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.image {
+    width: 50px;
+    height: 50px;
+}
